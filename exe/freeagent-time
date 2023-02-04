@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "freeagent_time"
+
+FreeagentTime::CLI::Command.setup
