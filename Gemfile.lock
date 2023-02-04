@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     freeagent_time (0.1.0)
+      zeitwerk (~> 2.6)
 
 GEM
   remote: https://rubygems.org/
@@ -38,6 +39,7 @@ GEM
       rubocop (= 1.42.0)
       rubocop-performance (= 1.15.2)
     unicode-display_width (2.4.2)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   arm64-darwin-22

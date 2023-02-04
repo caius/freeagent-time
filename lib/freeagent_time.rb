@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "freeagent_time/version"
+require "zeitwerk"
+
+loader = Zeitwerk::Loader.for_gem
+loader.setup
 
 module FreeagentTime
   class Error < StandardError; end
