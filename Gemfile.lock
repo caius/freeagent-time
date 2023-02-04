@@ -2,12 +2,14 @@ PATH
   remote: .
   specs:
     freeagent_time (0.1.0)
+      dry-cli (~> 1.0)
       zeitwerk (~> 2.6)
 
 GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    dry-cli (1.0.0)
     json (2.6.3)
     language_server-protocol (3.17.0.3)
     minitest (5.17.0)
